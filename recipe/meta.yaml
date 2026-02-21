@@ -1,5 +1,5 @@
 {% set name = "firthmodels" %}
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/firthmodels-{{ version }}.tar.gz
-  sha256: 8ad16591452668f9bed1aa2407a9edd4e7418687055dc55f527d72c0dc65a529
+  sha256: 28e9b06b2698a6ca14f217ab56d7af2e405744c657eeaa55db42e824ba5ae7fa
 
 build:
   noarch: python
